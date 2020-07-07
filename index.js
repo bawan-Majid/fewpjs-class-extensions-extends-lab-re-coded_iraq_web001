@@ -43,10 +43,10 @@ class Square extends Polygon{
 let polygon = new Polygon([2,2,2])
 Polygon.perimeter()
 
-let triangle = new Triangle([5,5,5])
+let triangle = new Triangle([4,4,4])
 triangle.isValid()
 
-let square = new Square([5,5,5,5])
+let square = new Square([7,7,7,7])
 square.area()
 square.countSides()
 square.isValid()
